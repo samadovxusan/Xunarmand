@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunarmand.Api", "Xunarmand.Api\Xunarmand.Api.csproj", "{6E6C8667-0008-44EC-BD10-11EC2D9A6E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunarmand.Application", "Xunarmand.Application\Xunarmand.Application.csproj", "{3B1C0A90-B669-49AC-8E64-8ADA8BBCFAB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunarmand.Domain", "Xunarmand.Domain\Xunarmand.Domain.csproj", "{DE074CA9-B833-4C66-9070-76BFEF2DEA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunarmand.Infrastructure", "Xunarmand.Infrastructure\Xunarmand.Infrastructure.csproj", "{3BAA172D-717C-4671-A8E0-A3049B201060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunarmand.Persistence", "Xunarmand.Persistence\Xunarmand.Persistence.csproj", "{5BE539C2-F862-4A29-B41A-F51E672BAD55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E6C8667-0008-44EC-BD10-11EC2D9A6E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6C8667-0008-44EC-BD10-11EC2D9A6E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6C8667-0008-44EC-BD10-11EC2D9A6E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6C8667-0008-44EC-BD10-11EC2D9A6E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1C0A90-B669-49AC-8E64-8ADA8BBCFAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1C0A90-B669-49AC-8E64-8ADA8BBCFAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1C0A90-B669-49AC-8E64-8ADA8BBCFAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1C0A90-B669-49AC-8E64-8ADA8BBCFAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE074CA9-B833-4C66-9070-76BFEF2DEA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE074CA9-B833-4C66-9070-76BFEF2DEA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE074CA9-B833-4C66-9070-76BFEF2DEA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE074CA9-B833-4C66-9070-76BFEF2DEA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAA172D-717C-4671-A8E0-A3049B201060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAA172D-717C-4671-A8E0-A3049B201060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAA172D-717C-4671-A8E0-A3049B201060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAA172D-717C-4671-A8E0-A3049B201060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE539C2-F862-4A29-B41A-F51E672BAD55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE539C2-F862-4A29-B41A-F51E672BAD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE539C2-F862-4A29-B41A-F51E672BAD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE539C2-F862-4A29-B41A-F51E672BAD55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
