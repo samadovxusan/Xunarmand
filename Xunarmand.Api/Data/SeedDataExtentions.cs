@@ -23,6 +23,24 @@ public static class  SeedDataExtensions
         {
             var clients = new List<User>
             {
+                  new()
+                {
+                    Id = Guid.Parse("54e16518-d140-4453-80c9-1a117dbe75fd"),
+                    Name = "Abduqodir",
+                    PhoneNumber = "33 011 71 11",
+                    EmailAddress = "Abduqodir@gmail.com",
+                    PasswordHash = "983037334", // qwerty123
+                    Role = Role.Admin
+                },
+                     new()
+                {
+                    Id = Guid.Parse("54e16318-d140-4453-80c9-1a117dbe75fd"),
+                    Name = "Husan",
+                    PhoneNumber = "99 843 90 13",
+                    EmailAddress = "Samadovxusan@gmail.com",
+                    PasswordHash = "husan9013", // qwerty123
+                    Role = Role.Admin
+                },
                 new()
                 {
                     Id = Guid.Parse("54e16318-d140-4453-80c9-1a117dbe75fd"),

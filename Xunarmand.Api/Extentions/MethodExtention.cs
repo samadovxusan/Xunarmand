@@ -12,7 +12,7 @@ public class MethodExtention
     public async Task<string> AddPictureAndGetPath(IFormFile file)
     {
         string pathForSaveInComputer = Path.Combine( _env.WebRootPath, "images",  file.FileName);
-        string pathForSaveInDatabase =Path.Combine("http://localhost:5000","images",  file.FileName);
+        string pathForSaveInDatabase =Path.Combine("http://xunarmand.uz","images",  file.FileName);
 
         using (var stream = File.Create(pathForSaveInComputer))
         {
