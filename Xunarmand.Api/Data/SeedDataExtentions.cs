@@ -34,6 +34,15 @@ public static class  SeedDataExtensions
                 },
                      new()
                 {
+                    Id = Guid.Parse("34e16518-d140-4453-80c9-1a117dbe75fd"),
+                    Name = "Tolqin",
+                    PhoneNumber = "33 011 71 11",
+                    EmailAddress = "Abduqodir@gmail.com",
+                    PasswordHash = "983037334", // qwerty123
+                    Role = Role.Admin
+                },
+                     new()
+                {
                     Id = Guid.Parse("54e16318-d140-4453-80c9-1a117dbe75fd"),
                     Name = "Husan",
                     PhoneNumber = "99 843 90 13",
